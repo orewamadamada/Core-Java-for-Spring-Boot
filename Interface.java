@@ -35,7 +35,7 @@ class Order {
     }
 }
 
-public class Main {
+public class Interface {
     public static void main(String[] args) {
         PaymentStrategy creditCard = new CreditCardPayment();
         Order order1 = new Order(creditCard);
